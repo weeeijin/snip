@@ -1,0 +1,15 @@
+# Build output
+/snip
+/bin/
+*.test
+*.out
+coverage.*
+
+# Local environment / secrets
+.env
+.env.*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
