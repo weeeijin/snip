@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-func main(){
+func main() {
 	mux := http.NewServeMux()
 	mux.HandleFunc("GET /healthz", func(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte("OK"))
